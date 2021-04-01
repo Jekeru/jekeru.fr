@@ -91,6 +91,6 @@ figure figcaption {
     transform: scale(1.1);
 }
 
-a:hover ~ body {
-    filter: invert(1);
+.social_ico:active {
+    transform: scale(0.8);
 }
