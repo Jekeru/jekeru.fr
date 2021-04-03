@@ -4,7 +4,7 @@ RewriteRule ^/?$ "https\:\/\/jekeru\.fr\/" [R=301,L]
 
 Options -Indexes
 
-//ErrorDocument 401 https://jekeru.fr/401.html
-//ErrorDocument 402 https://jekeru.fr/402.html
-//ErrorDocument 403 /403.html
-//ErrorDocument 404 https://jekeru.fr/404.html
+ErrorDocument 401 https://jekeru.fr/401.html
+ErrorDocument 402 https://jekeru.fr/402.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 https://jekeru.fr/404.html
