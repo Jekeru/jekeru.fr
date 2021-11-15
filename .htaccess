@@ -10,4 +10,4 @@ RewriteCond %{HTTP_HOST} ^jekeru\.fr$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.jekeru\.fr$
 RewriteRule ^/?$ "https\:\/\/jekeru\.fr\/" [R=301,L]
 
-Options -Indexes
+Options -Indexes 
