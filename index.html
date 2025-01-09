@@ -54,7 +54,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <img src="./assets/img/original_skull.jpg" alt="jeke" title="jeke.ru" class="logo">
+    <div class="logo your-element" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500" data-tilt-scale="1.1"><img src="./assets/img/original_skull.jpg" alt="jeke" title="jeke.ru" class="logo"></div>
     <div style="display: flex;align-items: center;">
         <a href="https://github.com/Jekeru" target="_blank">
             <figure><img src="./assets/img/GitHub_Logo.png" class="social_ico">
@@ -75,9 +75,11 @@
     <!--<a href="https://clovisp.com/" target="_blank">clovisp.com</a>-->
     <p>Apparel</p>
     <a href="https://teespring.com/fr/stores/jekerufr" target="_blank">stores/jekerufr</a>
-
     <!-- Optional Js -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./main.js" async defer></script>
+    <!-- at the end of the body -->
+    <script type="text/javascript" src="./node_modules/vanilla-tilt/dist/vanilla-tilt.js"></script>
 </body>
 
 </html>

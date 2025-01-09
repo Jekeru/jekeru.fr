@@ -26,12 +26,12 @@ body.load {
 
 .logo {
     width: 200px;
-    transition: transform .6s ease-in-out;
+    /*transition: transform .6s ease-in-out;*/
     margin: 5px;
 }
 
 body.load .logo {
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 }
 
 p,
