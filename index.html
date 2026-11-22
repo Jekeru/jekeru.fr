@@ -247,7 +247,7 @@ renderer.setPixelRatio(Math.min(devicePixelRatio,2));
 renderer.outputEncoding=THREE.sRGBEncoding;
 const scene=new THREE.Scene();
 scene.background=new THREE.Color(0xf1f1f1);
-const camera=new THREE.PerspectiveCamera(90,1,0.1,2000);
+const camera=new THREE.PerspectiveCamera(70,1,0.1,2000);
 camera.position.set(0,0,330);
 const controls=new THREE.OrbitControls(camera,canvas);
 controls.enableDamping=true;controls.autoRotate=true;controls.autoRotateSpeed=.9;
